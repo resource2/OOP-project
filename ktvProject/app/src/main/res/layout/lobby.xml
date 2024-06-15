@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lobby">
+
+    <!-- 左上按鈕 -->
+    <Button
+        android:id="@+id/buttonTopLeft"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="新歌"
+        android:textSize="30sp"
+        android:layout_margin="20dp"/>
+
+    <!-- 右上按鈕 -->
+    <Button
+        android:id="@+id/buttonTopRight"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="已點歌曲"
+        android:textSize="30sp"
+        android:layout_margin="20dp"/>
+
+    <!-- 中左按鈕 -->
+    <Button
+        android:id="@+id/buttonMiddleLeft"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:text="歌曲查詢"
+        android:textSize="30sp"
+        android:layout_margin="20dp"/>
+
+    <!-- 中右按鈕 -->
+    <Button
+        android:id="@+id/buttonMiddleRight"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:text="歌手查詢"
+        android:textSize="30sp"
+        android:layout_margin="20dp"/>
+
+    <!-- 左下按鈕 -->
+    <Button
+        android:id="@+id/buttonBottomLeft"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:text="呼叫"
+        android:textSize="30sp"
+        android:layout_margin="20dp"/>
+
+    <!-- 右下按鈕 -->
+    <Button
+        android:id="@+id/buttonBottomRight"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="歌唱設定"
+        android:textSize="30sp"
+        android:layout_margin="20dp"/>
+
+</RelativeLayout>
