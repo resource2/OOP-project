@@ -25,7 +25,8 @@ public class SocketManager extends Application {
         this.socket = socket;
         try {
             this.out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()), true);
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             e.printStackTrace();
         }
     }
